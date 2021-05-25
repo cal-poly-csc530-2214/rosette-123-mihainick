@@ -1,0 +1,19 @@
+Nick Sheffler
+Mihai Gherghina
+
+HW # 6.
+A) !(color(v) ^ none)
+B) (!color(v)  ^ ! len(1))
+C) !(color(v) ^ color(w))
+D) We can drop part B because it is assumed that every vertex already has a color. 
+
+Summary of work:
+First we spent time downloading Rosette, and spent some time trying to understand how to use raco from the cli.  Afterwards, we struggled to understand how to use the solver for quite some time.  
+
+We tried to understand how to use assert , verify and solve .  This took a good portion of our time, even with reading the rosette documentation. Examples would have been nice.  We took a break and asked others in the class how they went about using the solver, and from there we were able to develop the classify.rkt.  
+
+Afterwards we spent some time thinking through the second part of HW#1 and saw the tracing that CDCL produced with logging features. 
+
+Lastly we started the 3 part of HW#1 , k-coloring.  As can be seen at the top of the page, we attempted what we thought was correct, but also ran into implementation problems for part #7.  
+
+Overall it was a good assignment, and definitely one of the harder ones we had been assigned.  We both dont think in propositional constraints, and so it was hard to think of solutions that the SAT solver would accept.   
